@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+}
+/* MODULO ENCABEZADO */
+.App-logo {
+  height: 35vmin;
+  /*animation: App-logo-spin infinite 20s linear;*/
+}
+
+.App-header {
+  /*background-color: #919397;*/
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);
+  color: white;*/
+}
+
+/* MODULO TEXTO ARRIBA */
+.TextoArriba {
+  width: 95vmin;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+}
+
+/* MODULO START */
+.Start {
+  width: 95vmin;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(6px + 2vmin);*/
+}
+
+.circle {
+  height: 25vmin;
+}
+
+/* MODULO LOGIN */
+.Modulo-Login {
+  width: 95vmin;
+  min-height: 10vh;
+}
+
+.Texto-Login {
+  width: 95vmin;
+  font-size: calc(6px + 2vmin);
+}
+
+.Login {
+  width: 95vmin;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(6px + 2vmin);
+}
+
+/* MODULO BACK HOME */
+.Back {
+  width: 95vmin;
+  max-height: 20vh;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;*/
+  margin-top: 4vmin;
+}
+.home {
+  height: 15vmin;
+}
+/*
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
